@@ -28,7 +28,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "lwagentinstall.sh"
+      "courseData": "lwagentinstall.sh",
+      "code": "foreground_wait.sh"
     },
     "finish": {
       "text": "finish.md"
