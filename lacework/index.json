@@ -45,7 +45,7 @@
     "showdashboard": true,
     "dashboards": [
             {"name": "Lacework Console", "href": "https://login.lacework.net/ui/"},
-            {"name": "AWS Console", "href": "https://aws.amazon.com/"}
+            {"name": "AWS Console", "href": "https://aws.amazon.com/&output=embed"}
           ],
     "uilayout": "terminal-iframe"
   },
