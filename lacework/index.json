@@ -29,11 +29,16 @@
     "intro": {
       "text": "intro.md",
       "courseData": "lwagentinstall.sh",
-      "code": "foreground_wait.sh"
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+      "host01": [
+          {"file": "foreground_wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            ]
+        }
   },
   "environment": {
     "uilayout": "terminal-iframe"
