@@ -3,7 +3,9 @@ The customer also did not add in the Lacework agent token.
 i) Grab the agent token from the Lacework console. (Reference:https://support.lacework.com/hc/en-us/articles/360036425594-Create-Agent-Access-Tokens-and-Download-Agent-Installers)
 
 ii) Set the token in the environment
+
 Replace copied_agent_access_token in the below command
+
 `export token=copied_agent_access_token`{{execute}}
 
 (Reference: https://github.com/lacework/lacework-agent-releases#install-using-daemonset-deployment-files-for-kubernetes)
