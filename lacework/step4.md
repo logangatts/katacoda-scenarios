@@ -6,6 +6,7 @@ Set the token in the environment
 (Reference: https://github.com/lacework/lacework-agent-releases#install-using-daemonset-deployment-files-for-kubernetes)
 
 `export token=copied_agent_access_token`{{execute}}
+
 (Replace copied_agent_access_token in the above command)
 
 Use sed to replace the 'LaceworkAccessToken' in the lacework-cfg-k8s.yaml file
