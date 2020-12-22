@@ -1,1 +1,2 @@
-sleep 1; foreground_wait.sh
+sleep 1; /usr/local/bin/foreground_wait.sh
+clear
