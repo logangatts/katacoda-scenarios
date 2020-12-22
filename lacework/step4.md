@@ -10,4 +10,7 @@ Set the token in the environment
 
 Use sed to replace the 'LaceworkAccessToken' in the lacework-cfg-k8s.yaml file
 
-'sed -i.bak "s/\${LaceworkAccessToken}/${token}/g" lacework-cfg-k8s.yaml'{{execute}}
+'sed -i.bak "s/\${LaceworkAccessToken}/${token}/g" /opt/lacework_agent/3.3.5/lacework-cfg-k8s.yaml'{{execute}}
+
+Replace the lacework-k8s-config.yaml for the changes to take effect
+'kubectl replace -f /opt/lacework_agent/3.3.5/lacework-cfg-k8s.yaml'
