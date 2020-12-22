@@ -4,6 +4,6 @@ Docs Reference: https://github.com/lacework/lacework-agent-releases#install-usin
 
 The agent was downloaded to /opt/lacework_agent/3.3.5/
 
-Deploy the lacework-cfg YAML
+Deploy the lacework-cfg-k8s.yaml
 
-`kubectl create -f /opt/lacework_agent/lacework-cfg-k8s.yaml`{{execute}}
+`kubectl create -f /opt/lacework_agent/3.3.5/lacework-cfg-k8s.yaml`{{execute}}
