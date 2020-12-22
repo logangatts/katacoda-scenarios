@@ -41,6 +41,10 @@
         }
   },
   "environment": {
+    "hideintro": true,
+    "showdashboard": true,
+    "dashboards": [
+            {"name": "URL", "href": "https://www.katacoda.com"}],
     "uilayout": "terminal-iframe"
   },
   "backend": {
