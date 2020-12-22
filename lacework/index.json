@@ -44,7 +44,9 @@
     "hideintro": true,
     "showdashboard": true,
     "dashboards": [
-            {"name": "URL", "href": "https://www.katacoda.com"}],
+            {"name": "Lacework Console", "href": "https://www.katacoda.com"},
+            {"name": "AWS Console", "href": "https://console.aws.amazon.com/"}
+          ],
     "uilayout": "terminal-iframe"
   },
   "backend": {
